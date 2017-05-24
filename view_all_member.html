@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>View Members</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <img src="lab.jpg"  height="300px" width="1350px" align="center" ></div>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-left:2px solid #bbb
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+body{
+background-color:#ecf5ff; 
+}
+h3 {
+ color: #4CAF50;
+ font-weight: bold;
+}
+input[type=text] {
+    width: 30%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    background-color: white;
+    color:black;
+}
+button[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+	
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<ul>
+<li><a href=add_member.html>Add Member</a></li>
+<li><a href=edit_memberInfo.html>Edit Member Information</a></li>
+<li><a href=delete_member.html>Remove Member</a></li>
+<li><a href=view_all_member.php>View Students List </a></li>
+<li><a href=>Reference Letter</a></li>
+<li><a href=view_offer_letter.html>View Student Offer Letter</a></li>
+<li><a href=>Check Students Location</a></li>
+<li><a href=logout.php>Logout</a></li>
+</tr>
+</ul>
+
+ <div class="container">
+ <h3 align = "left" >Search to view member's information</h3>
+<form method=post action=view_all_member.php>
+  <div class="form-group">
+      <label>Member ID:</label>
+	  
+      <input type="text" class="form-control" name="member_id" placeholder="Enter id">
+    </div>
+
+   <button type="submit" class="btn btn-default">Search</button>
+      </div>
+<form>
+<br>
+</body>
+</html>
+
+
+
+
+
+

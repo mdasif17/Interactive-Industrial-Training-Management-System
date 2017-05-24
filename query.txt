@@ -1,0 +1,49 @@
+create table supervisor_login (
+supervisor_id char(10) primary key,
+supervisor_name varchar(30) not null,
+supervisor_password varchar(30) not null,
+supervisor_phone varchar(30) not null,
+supervisor_email varchar(30) not null
+);
+-------------------------------
+create table admin_login (
+admin_id char(10) primary key,
+admin_name varchar(30) not null,
+admin_password varchar(30) not null,
+admin_phone varchar(30) not null,
+admin_email varchar(30) not null
+);
+--------------------------------
+create table student_login (
+student_id char(10) primary key,
+student_name varchar(30) not null,
+student_password varchar(30) not null,
+student_phone varchar(30) not null,
+student_email varchar(30) not null
+);
+--------------------------------
+create table booking (
+member_id char(10),
+today_date date not null,
+time_start date not null,
+time_end date not null,
+room_type varchar(30) not null,
+organizer varchar(30) not null,
+num_of_participant int(3) not null 
+
+);
+------------------------------
+create table member_info (
+member_id char(10) primary key,
+member_name varchar(30) not null,
+member_phone varchar(30) not null,
+member_email varchar(30) not null,
+member_type varchar(30) not null
+);
+-----------------------------
+
+
+
+--------------------------
+insert into admin_login values 
+('1141123591', 'Asif', 'mustaba', '0146369107', 'mdasif.mmu@gmail.com')

@@ -1,0 +1,74 @@
+<html>
+<head > <title> Admin Login </title>
+ 
+<img src="lab.jpg" height="300px" width="1350px" align="center" ></div>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:3px solid #bbb
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 176px;
+    text-decoration: none;
+    
+  
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+<ul>
+
+</ul>
+
+<br>
+
+
+<div style="text-align:center;">
+<form action = 'admin_login.php' method = 'post'>
+<table width = '400' border = '2' align = 'center' bgcolor = 'tomato'>
+<tr>
+<td align = 'center' bgcolor = 'whitesmoke' colspan = '5' > <h1> <b> <em> Login </em> </b></h1> </td>
+<tr>
+<td align = 'right'> User ID: </td>
+<td> <input type = "text" name =' User_Id' > </td> 
+</tr>
+
+<tr> 
+<td align = 'right'>  Password: </td>
+<td> <input type = "password"  name = "Password" </td>
+</tr>
+<tr>
+<td align ='right'> Enter Image Text:</td>
+<td> <input type= "text" name= 'captcha'><br><img src="captcha17.php"></td>
+
+<tr> 
+<td colspan = "4" align = "center"> 
+<input type = 'submit' name = 'login' value = "Login"> </td>
+</tr>
+
+
+
+</table>
+</form>
+ 
+
+
+</body>
+</html>

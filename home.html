@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<title>IITMS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src='https://maps.google.com/maps/api/js?sensor=false&libraries=places'></script>
+<script src="locationpicker/dist/locationpicker.jquery.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmEd7tHANl5Ych8IQkupxVNOBWfLZk5tw" type="text/javascript"></script>
+      
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
+.w3-navbar li a {
+    padding: 16px;
+    float: left;
+
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-white w3-card-2" id="myNavbar">
+    <li>
+      <a href="#home" <i class="fa fa-home w3-large">HOME</a>
+    </li>
+    <!-- Right-sided navbar links -->
+    <li class="w3-right w3-hide-small">
+      <a href="#about">ABOUT ITP</a>
+      <a href="#ITP REGISTRATION"><i class="fa fa-registered"></i>ITP REGISTRATION</a>
+      <a href="#FCIM"><i class="fa fa-th"></i> FAMOUS COMPANIES IN MALAYSIA</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#login"><i class="fa fa-user"></i> LOGIN</a>
+    </li>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <li>
+      <a href="javascript:void(0)" class="w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars w3-padding-right w3-padding-left"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- Sidenav on small screens when clicking the menu icon -->
+<nav class="w3-sidenav w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()">ABOUT ITP</a>
+  <a href="#ITP REGISTRATION" onclick="w3_close()">ITP REGISTRATION</a>
+  <a href="#work" onclick="w3_close()">FAMOUS COMPANY IN MALAYSIA</a>
+  <a href="#pricing" onclick="w3_close()">LOGIN</a>
+  <a href="#contact" onclick="w3_close()">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+<img src="lab.jpg" height="530px" width="1350px" align="center" >
+  <div class="w3-display-left w3-padding-xxlarge w3-text-white">
+    <span class="w3-jumbo w3-hide-small">INTERACTIVE INDUSTRIAL TRAINING MANAGEMENT SYSTEM</span><br>
+    <span class="w3-xlarge w3-hide-large w3-hide-medium">INTERACTIVE INDUSTRIAL TRAINING MANAGEMENT SYSTEM</span><br>
+    <span class="w3-large">Stop wasting valuable time with stuffs that just isn't you.</span>
+    <p><a href="#about" class="w3-btn w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more about Indutrail Training Program</a></p>
+  </div>
+</header>
+
+<!--Announcement-->
+
+<div class="w3-container w3-padding-128 w3-center" id="announcement">
+
+ <h2> Click Here to see latest Announcement <h2>
+  <a style="font-size: 40px"  href= bulletin_header.php> Bulletin Board </a>
+</div>
+
+
+
+
+<!--ABOUT ITP-->
+<div class="w3-container w3-padding-128" id="about">
+<p>Industrial training program (ITP) is a core factor is to complete the Bachelor degree under Faculty of Information Science & Technology (FIST) in MMU Malaysia. A successful Industrial training is essential for the students to be eligible for the degree. Students shall be placed at organizations for a certain period to complete the ITP. Therefore, they shall be reveal to the reality of the industrial environment. Which shall also enable the students to prepare themselves for future career.</P>
+
+<h2></h2>
+<p>Industrial training program refers to the engagement of a student for a minimum of twelve (12) weeks at an organization to experience and apply their knowledge theoretically in the professional employment.</p>
+ 
+
+
+<p>Important Rules on Internship Programme - Trimester 3, Session 2016/2017</p>
+
+<ol>
+  <li>Only students who have completed (passed) or completing (i.e., included the subjects taken in this trimester)   60 or more then 60 credits excluding Arts and Humanity subjects are allowed to do industrial training.</li>
+  <li>Students are required to submit the following documents to FIST Admin Office
+  <ol type="a">
+   <li> Manual registration form</li><br>
+   <li> ITP Check list form</li><br>
+   <li> Printed online academic transcript</li><br>
+   <li> Printed Course Structure/ Your study plan (crossing off all subjects passed)</li><br>
+   <li> Original/Verified true copy of Insurance payment document(e.g.from MSIG,Tune Insurance etc)</li><br>
+   <li> Cover letter for Job application and stapled together in one bundle in 
+         the order above.</li>
+
+
+  
+</ol><br>
+</li>
+  
+  <li>Students are required to fill in his/her details in particular form of this website.</li>
+  <li>Student are required to workout his/her internship placement by using the reference letter provided.</li>
+  <li>Once being accepted by a company, the candidate should obtain an offer letter from the company stating the confirmation of acceptance, training duration (tentatively from 14 March 2016 until 13 June 2016), and the scope of job functions. The job functions should be related to IT/Bioinformatics.</li>
+  <li>Candidates are required to submit the copy of the offer letter to the Industrial Training Committee through the Admin Office by 26 Jan 2016. Candidates who fail to submit an offer letter by the due date will not be allowed to register to the Exam Unit.</li>
+  <li>Candidates who are going to their training abroad, must fill-in the Agreement Form for Foreign Company Attachment and submit it to FIST Admin Office by 26 Jan 2016.</li>
+  <li>Candidates who are doing their training abroad must return and all candidates are required to do their final presentation start from 15th June 2016 to 24 June 2016 upon completing the training duration, unless special arrangement is made. Failing to do so, the status for Industrial Training will remain as incomplete temporarily and fail after some time.</li>
+  <li>Despite being granted LOA (leave of absence) or undergoing industrial trainings, students MUST sit for the Supplementary Paper(s) when it/they is/are offered by the faculties/centers. Students are therefore advised to check their academic status before undergoing industrial training. It is advisable for the students to make prior arrangement for their training before the Exam Week should they have any pending re-sit paper(s).</li>
+  <li>Students are required to fill in his/her details in particular form of this website.</li>
+  <li>The Industrial Training Committee reserves the full authority over student's job arrangement, to ensure the arrangement made adhered to the requirements of the FIST Industrial Training Program.</li>
+</ol>
+
+</div>
+
+
+
+
+<!-- ITP REGISTRATION -->
+<div  class="w3-container w3-padding-128 w3-light-grey" id="ITP REGISTRATION">
+  <h3 class="w3-center">INDUSTRIAL TRAINING PROGRAM REGISTRATION</h3>
+  <div class="container">
+
+<form  method="POST" action=ITP_Student_Registration.php>
+
+<div class="form-group">
+      <label>Student ID*:</label>
+    
+      <input type="text" class="form-control" name="student_id" required placeholder="Enter id">
+    </div>
+
+
+<div class="form-group">
+      <label>Password*:</label>
+    
+      <input type="password" class="form-control" name="student_password" required placeholder="Enter password">
+    </div>
+  
+<div class="form-group">
+      <label>Student Name(All Caps)*:</label>
+    
+      <input type="text" class="form-control" name="student_name" required placeholder="Enter Name">
+    </div>
+<div class="form-group">
+      <label> Role*</label>
+      <div>
+      <select class="selectpicker" name="Role" required class="form-control">
+        <option value="">Select </option>
+        <option value= "student"> student</option>
+        <option value= "supervisor"> supervisor </option>
+      </select>
+      </div>
+    </div>
+
+<div class="form-group">
+      <label>Student Faculty*:</label>
+    
+      <input type="text" class="form-control" name="student_faculty" required placeholder="Enter Faculty*">
+    </div>
+<div class="form-group">
+      <label>Students Major*</label>
+      <div>
+      <select class="selectpicker" name="student_major" required class="form-control">
+        <option value="">Select </option>
+        <option value= " ITM"> ITM</option>
+        <option value= " DCN"> DCN </option>
+        <option value= " SC"> SC </option>
+        <option value= " AI"> AI </option>
+        <option value= " BI"> BI </option>
+      </select>
+      </div>
+<div class="form-group">
+      <label>Student Campus*:</label>
+    
+      <input type="text" class="form-control" name="student_campus" required placeholder="Enter campus name">
+    </div>
+<div class="form-group">
+      <label>Number of Credit Hours Completed Excluding Arts & Humanities Subject*:</label>
+    
+      <input type="text" class="form-control" name="Num_of_Credit_Hours_Completed" required placeholder="Enter number of credit hours completed">
+    </div>
+<div class="form-group">
+      <label>Number of Credit Hours Taken in Trimester 2 Excluding Arts & Humanities Subject*:</label>
+    
+      <input type="text" class="form-control" name="Num_of_Credit_Hours_Taken" required placeholder="Enter number of credit hours taken on current semester">
+    </div>
+<div class="form-group">
+      <label>Email Address(Usable)*:</label>
+    
+      <input type="email" class="form-control" name="student_email" required placeholder="Enter email address">
+    </div>
+<div class="form-group">
+      <label>Cellphone Number (i.e 013-1234567)*:</label>
+    
+      <input type="text" class="form-control" name="student_phone_no" required placeholder="Enter Phone number">
+    </div>
+<div class="form-group">
+      <label>Is this Your Last Trimester?*:</label>
+    
+      <input type="text" class="form-control" name="last_semester" required placeholder="Enter Yes or No">
+    </div>
+<div class="form-group">
+      <label>Trimester Session*:</label>
+    
+      <input type="text" class="form-control" name="semester_no" required placeholder="Enter Trimester Number Ex: Trimester2,2016/2017">
+    </div>
+
+
+
+<button type="submit" class="btn btn-default">Submit</button>
+      </div>
+      </div>
+</form>
+
+
+<!-- Famous Companies in Malaysia -->
+<div class="w3-container w3-padding-128  " id="FCIM">
+<h3 class="w3-center"> FAMOUS COMPANIES IN MALAYSIA:</h3>
+<ul class="w3-center" >
+<a href ="Company Details (Updated on 8 April 2014).xlsx"  > Download Companies List</a>
+</ul>
+
+<!-- Contact Section -->
+<div class="w3-container w3-padding-128 w3-light-grey" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-user fa-fw w3-xxlarge w3-margin-right"> </i>Dr. Md Shohel Sayeed <br> Position: Associate Professor,Chairperson of Industrial Training ,FIST<br> Office: ITBR 2003</p>
+
+
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Faculty Of Information Science and Technology,Multimedia University, Melaka ,Malaysia</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telephone: +6062523296</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: shohel.sayeed@mmu.edu.my</p>
+      <br>
+    
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- LOGIN -->
+<div class="w3-container w3-padding-128 w3-center " id="login">
+  <h3>LOGIN</h3>
+  <form action = 'admin_login.php' method = 'post'>
+<table width = '400' border = '2' align = 'center' bgcolor = 'blue'>
+<tr>
+<td align = 'center' bgcolor = 'red' colspan = '5' > <h1> <b> <em>LOGIN </em> </b></h1> </td>
+<tr>
+<td align = 'right'> User ID: </td>
+<td> <input type = "text" name =' User_Id' > </td> 
+</tr>
+
+<tr> 
+<td align = 'right'>  Password: </td>
+<td> <input type = "password"  name = "Password" </td>
+</tr>
+<tr>
+<td align ='right'> Enter Image Text:</td>
+<td> <input type= "text" name= 'captcha'><br><img src="captcha17.php"></td>
+
+<tr> 
+<td colspan = "4" align = "center"> 
+<input type = 'submit' name = 'login' value = "Login"> </td>
+</tr>
+</table>
+</form>
+ </div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-text-indigo" href=https://www.mmu.edu.my"></i>
+    <i class="fa fa-flickr w3-hover-text-red"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  </div>
+  
+</footer>
+ 
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+// Google Map Location
+var myCenter = new google.maps.LatLng(41.878114, -87.629798 );
+
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 12,
+  scrollwheel: false,
+  draggable: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidenav when clicking the menu icon
+var mySidenav = document.getElementById("mySidenav");
+
+function w3_open() {
+    if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = 'none';
+    } else {
+        mySidenav.style.display = 'block';
+    }
+}
+
+// Close the sidenav with the close button
+function w3_close() {
+    mySidenav.style.display = "none";
+}
+</script>
+
+
+
+
+
+</body>
+</html>
